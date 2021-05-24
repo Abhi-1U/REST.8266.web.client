@@ -1,0 +1,8 @@
+Markdown
+mkdocs
+pymdown-extensions
+mkdocs-material == 6.1.6     
+mkdocs-material-extensions == 1.0            
+mkdocs-minify-plugin == 0.3.0             
+mkdocs-print-site-plugin == 0.8.2        
+mkdocs-git-revision-date-localized-plugin == 0.7.3
