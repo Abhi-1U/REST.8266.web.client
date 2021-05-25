@@ -39,14 +39,14 @@
     background: #888;
   }
 </style>
-<script src="term.js"></script>
-<script src="FileSaver.js"></script>
+<script src="{{ base_url }}/assets/jsterm.js"></script>
+<script src="{{ base_url }}/assets/jsFileSaver.js"></script>
 </head>
 <body>
 
 <div style="display:inline-block; vertical-align:top;">
 <form>
-<input type="text" name="webrepl_url" id="url" value="ws://192.168.4.1:8266/" />
+<input type="text" name="webrepl_url" id="url" value="ws://192.168.43.97:8266/" />
 <input type="submit" id="button" value="Connect" onclick="button_click(); return false;" />
 </form>
 <div id="term">
